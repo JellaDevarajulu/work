@@ -1,0 +1,6 @@
+primary_column,process,vol,tmp,tccode,tlcode,param1,param2
+,1,1,1,4,4,3,3
+LL_1P5_P25,LL,1.5,-25,10,31,1,0
+LL_1P5_P45,LL,1.5,45,10,20,1,1
+kk_1P75_P45,LL,1.75,45,10,5,1,1
+kk_1P5_P45_error,LL,1,-25,10,32,1,1

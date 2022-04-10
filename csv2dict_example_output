@@ -1,0 +1,10 @@
+Reading file './data/table_data.csv'
+Table header:
+	 primary_column process vol tmp tccode tlcode param1 param2
+Table col_bit_size:
+	 primary_column {} process 1 vol 1 tmp 1 tccode 4 tlcode 4 param1 3 param2 3
+Table data:
+	 LL_1P5_P25 {primary_column LL_1P5_P25 process LL vol 1.5 tmp -25 tccode 10 tlcode 31 param1 1 param2 0,} LL_1P5_P45 {primary_column LL_1P5_P45 process LL vol 1.5 tmp 45 tccode 10 tlcode 20 param1 1 param2 1,} kk_1P75_P45 {primary_column kk_1P75_P45 process LL vol 1.75 tmp 45 tccode 10 tlcode 5 param1 1 param2 1,} kk_1P5_P45_error {primary_column kk_1P5_P45_error process LL vol 1 tmp -25 tccode 10 tlcode 32 param1 1 param2 1,}
+Table primary_column keys:
+	 LL_1P5_P25 LL_1P5_P45 kk_1P75_P45 kk_1P5_P45_error
+LL_1P5_P45 when_condition : 'tccode_3&!tccode_2&tccode_1&!tccode_0'&'tlcode_4&!tlcode_3&tlcode_2&!tlcode_1&!tlcode_0'
